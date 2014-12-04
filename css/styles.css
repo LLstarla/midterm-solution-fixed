@@ -118,6 +118,11 @@ write out on paper grid layouts for different devices */
 	section.grid_3 {
 		width: 48%;
 	}
+
+	nav li {
+		float: none;
+		margin: 4%;
+	}
 }
 
 /*Mobile Size*/
@@ -127,6 +132,22 @@ write out on paper grid layouts for different devices */
 	}
 		section.grid_3 {
 		width: 100%;
+	}
+
+	blockquote {
+		font-size: 1rem;
+	}
+
+	header.grid_3 {
+		text-align: center;
+		width:100%;
+	}
+
+	p.grid_6 {
+		width: 100%;
+		font-size: 1rem;
+		margin: 20px;
+	
 	}
 }
 
