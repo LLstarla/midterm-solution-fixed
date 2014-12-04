@@ -107,14 +107,28 @@ write MQs when things break, undoc inspect element look at size etc
 write out on paper grid layouts for different devices */
 
 
+
+
+
+/*Tablet Size*/
 @media screen and (max-width: 768px) {
 	body { 
 		background: yellow; 
 	}
+	section.grid_3 {
+		width: 48%;
+	}
 }
 
-
-
+/*Mobile Size*/
+@media screen and (max-width: 400px) {
+	body { 
+		background: green; 
+	}
+		section.grid_3 {
+		width: 100%;
+	}
+}
 
 
 
